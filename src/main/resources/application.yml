@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jpa-learning
+  datasource:
+    url: jdbc:mysql://120.76.43.103:3306/jpa_learning
+    username: root
+    password: Kapok-H3306
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
